@@ -10,7 +10,7 @@ l7methods = ['HTTP', 'CFB', 'OVH', 'BYPASS']
 
 server = [["1.3.3.7", "22", "root", "OeDiCJwW9Ozvsq4zHLOB"]]
 
-token = "ODM0ODIzNzc2MDU4MzQzNDc1.YIGgOg.UEGh9_HsKSdHbLq1KWc6jXxfgq4"
+token = "Your Token"
 
 def sshCommand(hostname, port, username, password, command):
     client = paramiko.SSHClient()
