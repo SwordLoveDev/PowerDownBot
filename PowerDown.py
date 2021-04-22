@@ -18,9 +18,9 @@ def sshCommand(hostname, port, username, password, command):
     try:
         client.connect(hostname, port, username, password)
         stdin, stdout, stderr = client.exec_command(command)
-        print("oui")
+        print("Attack server connected")
     except:
-        print("non")
+        print("Attack server no connected")
         pass
 
 @bot.event
